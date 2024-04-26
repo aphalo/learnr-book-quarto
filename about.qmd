@@ -1,0 +1,31 @@
+---
+title: "Learn R: As a Language"
+subtitle: "About the website"
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+![The book cover, 2
+ed](images/front-cover-2ed.png "The book cover, 2 ed"){width="75%"}
+
+
+This website supports the book Learn _R: As a Language_ authored by Pedro J. 
+Aphalo and published in _The R Series_ by Chapman and Hall/CRC. The website was 
+built and is maintained by the author of the book. The site is static and built
+using Quarto.
+
+Book citation:
+
+```
+@Book{Aphalo2024,
+  author    = {Pedro J. Aphalo},
+  date      = {2024},
+  title     = {Learn R: As a Language},
+  edition   = 2,
+  isbn      = {9781032516998},
+  pagetotal = {466},
+  publisher = {Chapman \& Hall/CRC/Taylor & Francis Ltd},
+  series    = {The R Series},
+}
+```

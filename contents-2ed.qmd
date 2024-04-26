@@ -1,0 +1,243 @@
+---
+title: "Second edition (2024)"
+subtitle: "Contents and chapter summaries"
+editor_options: 
+  markdown: 
+    wrap: 72
+number-sections: true
+number-depth: 1
+---
+
+[![The book
+cover](images/front-cover-2ed.png "The book cover"){width="40%"}](https://www.routledge.com/Learn-R-As-a-Language/Aphalo/p/book/9781032516998)
+
+# The Book
+
+Learn _R: As a Language_ (2ed) was authored by Pedro J. 
+Aphalo and published in 2024 in the _The R Series_ by Chapman and Hall/CRC.
+
+## Book citation
+
+Aphalo, Pedro J. (2024) _Learn R: As a Language,_ 2 ed. Boca Raton: CRC/Taylor & Francis Ltd (The R Series), 466 pp. ISBN: 9781032516998. (466 pages, 191 color illustrations.)
+
+```
+@Book{Aphalo2020,
+  author    = {Pedro J. Aphalo},
+  date      = {2024},
+  title     = {Learn R: As a Language},
+  edition   = {2},
+  isbn      = {9781032516998},
+  pagetotal = {466},
+  publisher = {CRC/Taylor & Francis Ltd},
+  series    = {The R Series},
+}
+```
+
+# The Chapters
+
+## Preface
+
+## 1. Using the Book to Learn R
+
+In this chapter, I describe how I imagine the book can be used most effectively
+to learn the R language. Learning R and remembering what one has previously
+learnt and forgotten makes it also necessary to use this book and other sources
+as references. Learning to use R effectively also involves learning how to
+search for information and how to ask questions from other users, for example
+through online forums. Thus, I also give advice on how to find answers to
+R-related questions and how to use the available documentation.
+
+## 2. R: The language and the program
+
+I share some facts about the history and design of the R language so that you
+can gain a good vantage point from which to grasp the logic behind R’s features,
+making it easier to understand and remember them. You will learn the distinction
+between the R program itself and the front-end programs, like RStudio, frequently
+used together with R.
+
+You will also learn how to interact with R when sitting at a computer. You will
+learn the difference between typing commands interactively and reading each partial
+result from R on the screen as you enter them, versus using R scripts containing
+multiple commands stored in a file to execute or run a “job” that saves results to
+another file for later inspection.
+
+I describe the steps taken in a typical scientific or technical study, including the
+data analysis workflow and the roles that R can play in it. I share my views on the
+advantages and disadvantages of textual command languages such as R compared
+to menu-driven user interfaces, frequently used in other statistics software. I discuss
+the role of textual languages and literate programming in the very important
+question of the reproducibility of data analyses and mention how I have used them
+while writing and typesetting this book.
+
+## 3. Base R: “Words” and “Sentences”
+
+In my experience, for those who are not familiar with computer programming languages,
+the best first step in learning the R language is to use it interactively by
+typing textual commands at the R console. This teaches not only the syntax and
+grammar rules, but also gives a glimpse at the advantages and flexibility of this
+approach to data analysis. In this chapter, I focus on the different simple values
+or items that can be stored and manipulated in R, as well as the role of computer
+program statements, the equivalent of “sentences” in natural languages.
+
+In the first part of the chapter, you will use R to do everyday calculations that
+should be so easy and familiar that you will not need to think about the operations
+themselves. This easy start will give you a chance to focus on learning how to issue
+textual commands at the command prompt.
+
+Later in the chapter, you will gradually need to focus more on the R language
+and its grammar and less on how commands are entered. By the end of the chapter,
+you will be familiar with most of the kinds of simple “words” used in the R language
+and you will be able to read and write simple R statements.
+
+Throughout the chapter, I will occasionally show the equivalent of the R code
+in mathematical notation. If you are not familiar with the mathematical notation,
+you can safely ignore the mathematics, as long as you understand the diagrams
+and the R code.
+
+## 4. Base R: “Collective Nouns”
+
+Data set organisation and storage is one of the keys to efficient data analysis.
+How to keep together all the information that belongs together, say all measurements
+from an experiment and corresponding metadata such as treatments applied
+and/or dates. The title “collective nouns” is based on the idea that a data set
+is a collection of data objects.
+
+In this chapter, you will familiarise with how data sets are usually managed in
+R. I use both abstract examples to emphasise the general properties of data sets
+and the R classes available for their storage and a few more specific examples to
+exemplify their use in a more concrete way. While in chapter 3 the focus was on
+atomic data types and objects, like vectors, useful for the storage of collections
+of values of a given type, like numbers, in the present chapter the focus is on the
+storage within a single object of heterogeneous data, such as a combination of
+factors, and character and numeric vectors. Broadly speaking, heterogeneous data
+containers.
+
+To describe the structure of R objects I use diagrams similar to those in the
+previous chapter.
+
+## 5. Base R: “Paragraphs” and “Essays”
+
+For those who have mainly used graphical user interfaces, understanding why and
+when scripts can help in communicating a certain data analysis protocol can be revelatory.
+As soon as a data analysis stops being trivial, describing the steps followed
+through a system of menus and dialogue boxes becomes extremely tedious.
+Moreover, graphical user interfaces tend to be difficult to extend or improve
+in a way that keeps step-by-step instructions valid across program versions and
+operating systems.
+
+Many times, exactly the same sequence of commands needs to be applied to
+different data sets, and scripts make both implementation and validation of such
+a requirement easy.
+
+In this chapter, I will walk you through the use of R scripts, starting from an
+extremely simple script.
+
+## 6. Base R: Adding New “Words”
+
+In earlier chapters we have only used base R features. In this chapter you will learn
+how to expand the range of features available. I start by discussing how to define
+and use new functions, operators, and classes. What are their semantics and how
+they contribute to conciseness and reliability of computer scripts and programs.
+Later I focus on using existing packages to share extensions to R and touch briefly
+on how they work. I do not consider the important, but more advanced question
+of packaging functions and classes into new R packages. Instead I discuss how
+packages are installed and used.
+
+## 7. Base R: “Verbs” and “Nouns” for Statistics
+
+This chapter aims to give the reader an introduction to the approach used in base
+R for the computation of statistical summaries, the fitting of models to observations
+and tests of hypothesis. This chapter does not explain data analysis methods,
+statistical principles or experimental designs. There are many good books on the
+use of R for different kinds of statistical analyses (see further reading on page 241)
+but most of them tend to focus on specific statistical methods rather than on the
+commonalities among them. Although base R’s model fitting functions target specific
+statistical procedures, they use a common approach to model specification
+and for returning the computed estimates and test outcomes. This approach, also
+followed by many contributed extension packages, can be considered as part of
+the philosophy behind the R language. In this chapter, you will become familiar
+with the approaches used in R for calculating statistical summaries, generating
+(pseudo-)random numbers, sampling, fitting models, and carrying out tests of significance.
+We will use linear correlation, t-test, linear models, generalised linear
+models, non-linear models, and some simple multivariate methods as examples.
+The focus is on how to specify statistical models, contrasts and observations, how
+to access different components of the objects returned by the corresponding fit
+and summary functions, and how to use these extracted components in further
+computations or for customised printing and formatting.
+
+## 8. R Extensions: Data Wrangling
+
+Base R and the recommended extension packages (installed by default) include
+many functions for manipulating data. The R distribution supplies a complete
+set of functions and operators that allow all the usual data manipulation operations.
+These functions have stable and well-described behaviour, so in my view,
+they should be preferred unless some of their limitations justify the use of alternatives
+defined in contributed packages. In the present chapter, I describe the new
+syntax introduced by the most popular contributed R extension packages aiming at
+changing (usually improving one aspect at the expense of another) in various ways
+how we can manipulate data in R. These independently developed packages extend
+the R language not only by adding new “words” to it but by supporting new ways of
+meaningfully connecting “words”—i.e., providing new “grammars” for data manipulation.
+While at the current stage of development of base R not breaking existing
+code has been the priority, several of the still “young” packages in the ‘tidyverse’
+have prioritised experimentation with enhanced features over backwards compatibility.
+The development of ‘tidyverse’ packages seems to have initially emphasised
+users’ convenience more than encouraging safe/error-free user code. The design
+of package ‘data.table’ has prioritised performance at the expense of easy of use.
+I do not describe in depth these new approaches but instead only briefly compare
+them to base R highlighting the most important differences.
+
+## 9. R Extensions: Grammar of Graphics
+
+Three main data plotting systems are available to R users: base R, package ‘lattice’
+(Sarkar 2008), and package ‘ggplot2’ (Wickham and Sievert 2016); the last one being
+the most recent and currently most popular system available in R for plotting
+data. Even two different sets of graphics primitives (i.e., those used to produce the
+simplest graphical elements such as lines and symbols) are available in R, those in
+base R and a newer one in the ‘grid’ package (Murrell 2019).
+
+In this chapter, you will learn the concepts of the layered grammar of graphics,
+on which package ‘ggplot2’ is based. You will also learn how to build several
+types of data plots with package ‘ggplot2’. As a consequence of the popularity and
+flexibility of ‘ggplot2’, many contributed packages extending its functionality have
+been developed and deposited in public repositories. However, I will focus mainly
+on package ‘ggplot2’ only briefly describing a few of these extensions.
+
+## 10. Base R and Extensions: Data Sharing
+
+In this chapter, you will learn how to exchange data between R and some other
+applications. Base R and the recommended packages (installed by default) include
+several functions for importing and exporting data. Contributed packages provide
+both replacements for some of these functions and support for several additional
+file formats. In the present chapter, I aim at describing both data input and output
+covering in detail only the most common “foreign” data formats (those not native
+to R). The function pairs save() and load(), and saveRDS() and readRDS(), which
+save and read data in R’s native formats, are described in chapter 4, sections 4.7.2
+and 4.7.3 starting on page 118.
+
+Data file formats that are foreign to R are not always well defined, making it
+necessary to reverse-engineer the algorithms needed to read them. These formats,
+even when clearly defined, may be updated by the developers of the foreign software
+that writes the files. Consequently, developing software to read and write files
+using foreign formats can easily result in long, messy, and ugly R scripts. We can
+also unwillingly write code that usually works but occasionally fails with specific
+files, or even worse, occasionally silently corrupts the imported data. The aim of
+this chapter is to provide guidance for finding functions for reading data encoded
+using foreign formats, covering both base R, including the ‘foreign’ package, and
+independently contributed packages. Such functions are well tested or validated
+and should be used whenever possible when importing data stored in foreign file
+formats.
+
+# Free supplementary material
+
+For this second edition I provide the supplementary material as pages at 
+[my website](https://www.r4photobiology.info/). A 
+[custom contents page](https://www.r4photobiology.info/r-index.html) makes
+it easier to find the relevant content, but other pages at the site may also
+be of interest to readers of the book.
+
+# Issues
+
+Reports of errors and suggestions for enhancements of the book
+are welcome, preferably as Issues raised at
+<https://github.com/aphalo/learnr-book-crc/issues>.

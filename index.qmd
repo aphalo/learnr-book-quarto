@@ -1,0 +1,94 @@
+---
+title: "Learn R: As a Language"
+subtitle: "A book in The R Series"
+author: "Authored by Pedro J. Aphalo"
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+[![The book
+cover (1ed)](images/frontcover-9780367182533-scaled.jpg){width="40%"}](https://www.routledge.com/Learn-R-As-a-Language/Aphalo/p/book/9780367182533)
+![The book cover, 2
+ed](images/front-cover-2ed.png "The book cover, 2 ed"){width="41%"}
+
+# The book in a nutshell
+
+The *second edition* (yellow-red wordcloud cover) of my book *Learn R:
+As a Language* has publication date 26 April 2024. The [R package
+'learnrbook](https://cran.r-project.org/package=learnrbook)' available
+through CRAN contains data and the R code from scripts and chunks in the
+book. Package 'learnrboo' versions \>= 2.0.0 support both book editions
+of the book. I typeset the book using $\LaTeX$ and R package 'knitr'.
+The 2nd edition includes many new diagrams and flowcharts that help
+explain the structure of R code, the structure of R objects, and the
+control of execution constructs.
+
+![Structure of a
+vector](images/diagram-of-vector.png){fig-alt="Diagram of the structure of a vector"
+fig-align="center" width="80%"}
+
+![`if` code
+construct](images/flowchart-if.png){fig-alt="Flowchart of an if code construct"
+fig-align="center" width="50%"}
+
+The book is published as paperback and hardback printed books and as an
+eBook. The page count has increased from 364 to 466, and the number of
+colour illustrations from 114 to 191. The price increase of the
+paperback is minimal, from 58.99 to 59.99 pounds. The hardback of the
+2nd edition at 150 pounds is 5 pounds cheaper than the first edition.
+The 2nd edition of the book is available from [the publisher through the book's web
+page](https://www.routledge.com/Learn-R-As-a-Language/Aphalo/p/book/9781032516998)
+at a 20% discount until 31 July 2024 when using the discount code below.
+
+[![Discount code:
+SMA22](images/discount-voucher-2024.jpg){fig-alt="Discount code: SMA22"
+fig-align="center"
+width="50%"}](https://www.routledge.com/Learn-R-As-a-Language/Aphalo/p/book/9781032516998)
+
+The book is also available at brick and mortar booksellers and through
+web stores, at prices that may differ from the publisher's prices.
+
+# News
+
+**\[April 2024\]** Second edition published. The price of the eBook is
+the same as for the paperback. Until 31 July there is a 20% discount
+available to all at the [the publisher through the book's web
+page](https://www.routledge.com/Learn-R-As-a-Language/Aphalo/p/book/9781032516998).
+Supplementary material is now available as web pages at the [my website](https://www.r4photobiology.info/) with some of the most relevant pages
+highlighted at the [R index page of the site](https://www.r4photobiology.info/r-index.html).
+
+**\[September 2021\]** I have made available through this website
+[supplementary chapters for the
+book](https://www.learnr-book.info/learn-r-extra-web.pdf) (over 100
+pages). These are typeset using the same design as the book itself and
+numbering of chapters and pages continues from where they end in the
+book. These chapters are still work in progress. After further revision
+I intend to add the code they contain also to package 'learnrbook'. They
+are released under a CC-BY-SA 4.0 licence.
+
+**\[July 2021\]** Only two small changes to the code chunks are needed
+to avoid deprecation messages from 'tidyverse' packages. The
+['learnrbook' package](https://docs.r4photobiology.info/learnrbook/)
+(1.0.2) adds the **R** code for all code chunks in the book as
+executable and editable `.R` files. Additional material related to my
+'ggplot2' extensions is available in the vignettes of my packages
+['gginnards'](https://docs.r4photobiology.info/gginnards/),
+['ggpp'](https://docs.r4photobiology.info/ggpp/) and
+['ggpmisc'](https://docs.r4photobiology.info/ggpmisc/), all available
+through CRAN.
+
+# Issues
+
+Reports of errors and suggestions for enhancements are welcome,
+preferably as Issues raised at
+<https://github.com/aphalo/learnr-book-crc/issues>; the source of the
+book is at <https://github.com/aphalo/learnr-book-crc>.
+
+------------------------------------------------------------------------
+
+![The book
+cover](images/front-cover-2ed.png "The book cover"){fig-alt="The book cover"
+width="100%"}
+
+------------------------------------------------------------------------
