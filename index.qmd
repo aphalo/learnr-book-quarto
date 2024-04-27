@@ -7,10 +7,10 @@ editor_options:
     wrap: 72
 ---
 
+![The book
+cover (1ed)](images/frontcover-9780367182533-scaled.jpg){width="40%"}]
 [![The book
-cover (1ed)](images/frontcover-9780367182533-scaled.jpg){width="40%"}](https://www.routledge.com/Learn-R-As-a-Language/Aphalo/p/book/9780367182533)
-![The book cover, 2
-ed](images/front-cover-2ed.png "The book cover, 2 ed"){width="41%"}
+cover](images/front-cover-2ed.png "The book cover"){width="41%"}](https://www.routledge.com/Learn-R-As-a-Language/Aphalo/p/book/9781032516998)
 
 # The book in a nutshell
 
@@ -36,7 +36,9 @@ The book is published as paperback and hardback printed books and as an
 eBook. The page count has increased from 364 to 466, and the number of
 colour illustrations from 114 to 191. The price increase of the
 paperback is minimal, from 58.99 to 59.99 pounds. The hardback of the
-2nd edition at 150 pounds is 5 pounds cheaper than the first edition.
+2nd edition at 150 pounds is 5 pounds cheaper than the first edition. The 
+price of the eBook is the same as for the paperback.
+
 The 2nd edition of the book is available from [the publisher through the book's web
 page](https://www.routledge.com/Learn-R-As-a-Language/Aphalo/p/book/9781032516998)
 at a 20% discount until 31 July 2024 when using the discount code below.
@@ -51,11 +53,10 @@ web stores, at prices that may differ from the publisher's prices.
 
 # News
 
-**\[April 2024\]** Second edition published. The price of the eBook is
-the same as for the paperback. Until 31 July there is a 20% discount
+**\[April 2024\]** Second edition published. Until 31 July there is a 20% discount
 available to all at the [the publisher through the book's web
 page](https://www.routledge.com/Learn-R-As-a-Language/Aphalo/p/book/9781032516998).
-Supplementary material is now available as web pages at the [my website](https://www.r4photobiology.info/) with some of the most relevant pages
+Supplementary material is now available as web pages at [my website](https://www.r4photobiology.info/) with some of the most relevant pages
 highlighted at the [R index page of the site](https://www.r4photobiology.info/r-index.html).
 
 **\[September 2021\]** I have made available through this website
