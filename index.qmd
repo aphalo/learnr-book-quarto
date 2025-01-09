@@ -39,24 +39,26 @@ paperback is minimal, from 58.99 to 59.99 pounds. The hardback of the
 2nd edition at 150 pounds is 5 pounds cheaper than the first edition. The 
 price of the eBook is the same as for the paperback.
 
+::: callout-tip
+# Buying the book
+
 The 2nd edition of the book is available from [the publisher through the book's web
 page](https://www.routledge.com/Learn-R-As-a-Language/Aphalo/p/book/9781032516998)
-at a 20% discount until 31 July 2024 when using the discount code below.
-
-[![Discount code:
-SMA22](images/discount-voucher-2024.jpg){fig-alt="Discount code: SMA22"
-fig-align="center"
-width="50%"}](https://www.routledge.com/Learn-R-As-a-Language/Aphalo/p/book/9781032516998)
+at a 20% discount until 22 January 2025 during their January sale.
 
 The book is also available at brick and mortar booksellers and through
-web stores, at prices that may differ from the publisher's prices.
+web stores, at prices that may differ significantly from the publisher's prices.
+In addition, taxes vary among countries.
+:::
 
 # News
 
-**\[April 2024\]** Second edition published. Until 31 July there is a 20% discount
-available to all at the [the publisher through the book's web
-page](https://www.routledge.com/Learn-R-As-a-Language/Aphalo/p/book/9781032516998).
-Supplementary material is now available as web pages at [my website](https://www.r4photobiology.info/) with some of the most relevant pages
+**\[8 January 2025\]** 
+Yesterday, I run all code examples in the book. Everything works, except for one of the examples for package 'tidync' (the one at the bottom of page 409). This seems to be the result of a change in the recent update of 'tidync' to version 0.4.0. This change looks to me like a bug.
+
+If you would like to have a look at the book before buying it, or you are unable to buy it or to ask for it to be acquired by a library you have access to, a preprint is available at [the research portal of the University of Helsinki](https://researchportal.helsinki.fi/en/publications/learn-r-as-a-langauge) as a watermarked PDF file.
+
+**\[April 2024\]** Second edition published. Supplementary material is now available as web pages at [my website](https://www.r4photobiology.info/) with some of the most relevant pages
 highlighted at the [R index page of the site](https://www.r4photobiology.info/r-index.html).
 
 **\[September 2021\]** I have made available through this website
